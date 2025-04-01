@@ -1,0 +1,11 @@
+[
+null,
+{"id":1,"battlerName":"custom1","characterIndex":0,"characterName":"customwalk","classId":1,"equips":[51,0,0,2,0],"faceIndex":0,"faceName":"mainface","traits":[],"initialLevel":1,"maxLevel":99,"name":"Q","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"custom2","characterIndex":1,"characterName":"customwalk","classId":8,"equips":[43,43,0,0,0],"faceIndex":1,"faceName":"mainface","traits":[],"initialLevel":3,"maxLevel":99,"name":"Kayden","nickname":"","note":"","profile":"Loves stealing from people. Needs money to fuel his appetite. Pretends to be an adult by wearing a beard."},
+{"id":3,"battlerName":"custom3","characterIndex":2,"characterName":"customwalk","classId":9,"equips":[19,0,0,5,0],"faceIndex":2,"faceName":"mainface","traits":[],"initialLevel":7,"maxLevel":99,"name":"Grant","nickname":"","note":"","profile":"A retired pirate who you convinced to join your party."},
+{"id":4,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":5,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":6,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":7,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":8,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
+]
