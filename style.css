@@ -1,0 +1,13 @@
+h1 {
+    color: red; font-size: 100px; font-family: "Comic Sans MS", "Comic Sans", cursive;
+  }
+
+  a{
+    color: blue;
+  }
+  
+  p{
+    color: hotpink; background-color: blueviolet;
+    text-decoration: underline;
+  }
+  
