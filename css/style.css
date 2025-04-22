@@ -1,6 +1,6 @@
 @font-face {
   font-family: comicsans;
-  src: url(/comicsansms.ttf);
+  src: url(./font/comicsansms.ttf);
 }
 
 h1 {
