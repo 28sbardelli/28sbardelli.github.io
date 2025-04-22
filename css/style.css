@@ -26,6 +26,18 @@ p {
   border-radius: 10px;
   text-decoration: none;
 }
+.navs {
+  border: 2px solid #444;
+  color: #000;
+  background-color: #fff;
+  padding: 20px;
+  margin: 0px 0px 0px auto;
+  border-radius: 10px;
+  text-decoration: none;
+}
+#lb{
+  display: none;
+}
 
 #bar {
   background-color: burlywood;
