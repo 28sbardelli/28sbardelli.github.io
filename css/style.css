@@ -8,6 +8,10 @@ h1 {
   font-size: 100px;
 }
 
+figcaption{
+  margin: 0 5% 0 0;
+}
+
 p {
   color: #000;
 }
