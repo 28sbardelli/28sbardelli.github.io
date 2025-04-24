@@ -17,7 +17,7 @@ p {
   margin-bottom: 10px;
 }
 
-.nav {
+nav {
   border: 2px solid #444;
   color: #000;
   background-color: #fff;
@@ -26,6 +26,12 @@ p {
   border-radius: 10px;
   text-decoration: none;
 }
+
+nav a{
+  text-decoration: none;
+  color: #000;
+}
+
 .navs {
   border: 2px solid #444;
   color: #000;
@@ -39,7 +45,7 @@ p {
   display: none;
 }
 
-#bar {
+header {
   background-color: burlywood;
   padding: 25px;
   margin-top: 0px;
@@ -53,7 +59,7 @@ p {
   font-family: "comicsans", "Comic Sans MS", "Comic Sans", cursive;
 }
 
-#main {
+main {
   width: 600px;
   height: 200px;
   margin: auto;
@@ -88,19 +94,15 @@ html {
   margin: 0;
 }
 
-.row {
+.multi{
+  flex: 1 1 auto;
+  justify-content: space-around;
   display: flex;
+  margin: 0 10% 0 0;
 }
 
-.column {
-  flex: 50%;
-}
 
-figure {
-  max-width: 290px;
-}
-
-#media {
+.media {
   flex: 1 1 auto;
   display: flex;
   text-align: center;
