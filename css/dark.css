@@ -94,6 +94,10 @@ main {
 }
 
 .textpage {
+  background: rgba(92, 120, 145, 1);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 110%;
 }
 
@@ -139,14 +143,6 @@ html {
 }
 
 @media only screen and (max-width:600px) {
-  #aback {
-    background: rgba(92, 120, 145, 1);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 420%;
-  }
-
   .navs {
     margin-bottom: 0;
     height: 5%;
@@ -162,13 +158,8 @@ html {
   }
 
   main {
+
     height: 40%;
     width: auto;
   }
-
-  .media {
-    width: auto;
-    flex-direction: column;
-  }
-
 }
