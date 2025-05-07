@@ -115,14 +115,15 @@ html {
 
 
 
-@media only screen and (min-width:601px){
-  #aback{
+@media only screen and (min-width:601px) {
+  #aback {
     background: rgba(92, 120, 145, 1);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 180%;
+    height: 185%;
   }
+
   .media {
     flex: 1 1 auto;
     display: flex;
@@ -131,18 +132,21 @@ html {
     font-size: 95%;
     margin: 2% 5%;
   }
-  .media figure{
+
+  .media figure {
     margin: 0 3%;
   }
 }
+
 @media only screen and (max-width:600px) {
-  #aback{
+  #aback {
     background: rgba(92, 120, 145, 1);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 00%;
+    height: 420%;
   }
+
   .navs {
     margin-bottom: 0;
     height: 5%;
@@ -157,18 +161,14 @@ html {
     justify-content: space-between;
   }
 
-main{
-  height: 40%;
-  width: auto;
-}
+  main {
+    height: 40%;
+    width: auto;
+  }
 
-.media{
-  width: auto;
-  flex-direction: column;
-}
-
-#aback{
-height: 3000px;
-}
+  .media {
+    width: auto;
+    flex-direction: column;
+  }
 
 }

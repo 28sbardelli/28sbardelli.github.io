@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"  content="just a simple website to learn html/css/js">
+  <meta name="description" content="just a simple website to learn html/css/js">
   <title>Alles über mich</title>
   <link id="stylelink" rel="stylesheet" href="./css/style.css">
   <script src="js/js.js"></script>
@@ -12,9 +12,15 @@
 
 <body class="textpage" onload="changestyle()">
   <header>
-    <a href="/game/index.html"><nav>Get To School 6</nav></a>
-    <a href="index.html"><nav> Home</nav></a>
-    <a href="about.html"><nav> About</nav></a>
+    <a href="/game/index.html">
+      <nav>Get To School 6</nav>
+    </a>
+    <a href="index.html">
+      <nav> Home</nav>
+    </a>
+    <a href="about.html">
+      <nav> About</nav>
+    </a>
     <a id="db" class="navs" href="#" onclick="document.cookie='dark'; changestyle();"><svg
         xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000">
         <path
@@ -26,69 +32,84 @@
           d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z" />
       </svg></a>
   </header>
-<div id="aback"></div>
+  <div id="aback"></div>
 
-<main>
-  <section class="title">
-    <h1>Alles über mich</h1>
-  </section>
-  <section class="multi">
-    <figure>
-      <h2>Learning IT</h2>
-      <figcaption>I have been learning about IT since elementary school when we started block coding on code.org. Since
-        then I
-        learned some HTML, CSS, and Javascript in class, and some C# on my own. I've also learned some other assorted
-        IT skills not related to programming but they are a lot less concrete. <figcaption>
-    </figure>
-    <figure>
-      <h2>Other</h2>
-      <figcaption>I like playing video games, going on walks/biking, watching anime/tv, playing bass, and I hope to one day be fluent
-        in
-        german, form a band, and also play soccer. Listed below are some of my favorite pieces of media.<figcaption>
-    </figure>
-  </section>
+  <main>
+    <section class="title">
+      <h1>Alles über mich</h1>
+    </section>
+    <section class="multi">
+      <figure>
+        <h2>Learning IT</h2>
+        <figcaption>I have been learning about IT since elementary school when we started block coding on code.org.
+          Since
+          then I
+          learned some HTML, CSS, and Javascript in class, and some C# on my own. I've also learned some other assorted
+          IT skills not related to programming but they are a lot less concrete. <figcaption>
+      </figure>
+      <figure>
+        <h2>Other</h2>
+        <figcaption>I like playing video games, going on walks/biking, watching anime/tv, playing bass, and I hope to
+          one day be fluent
+          in
+          german, form a band, and also play soccer. Listed below are some of my favorite pieces of media.<figcaption>
+      </figure>
+    </section>
 
-  <br>
+    <br>
+    <h1>Things I like</h1>
+    <section class="media">
+      <figure>
+        <img height="230" width="150"
+          src="https://m.media-amazon.com/images/M/MV5BZmI4ZDNmZTUtMjE2ZS00YjRjLWExMGEtODUyZTE3NDMzZjY0XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg"
+          alt="assassin's creed black flag box art">
+        <figcaption>Assassin's creed is one of my favorite game series but Black Flag particularly is my favorite
+          entry. </figcaption>
+      </figure>
 
-  <section class="media">
-    <figure>
-      <img height="250" width="180"
-        src="https://m.media-amazon.com/images/M/MV5BZmI4ZDNmZTUtMjE2ZS00YjRjLWExMGEtODUyZTE3NDMzZjY0XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg"
-        alt="assassin's creed black flag box art">
-      <figcaption>Assassin's creed is one of my favorite game series but Black Flag particularly is my favorite
-        entry. </figcaption>
-    </figure>
+      <figure>
+        <img height="230" width="150"
+          src="https://m.media-amazon.com/images/M/MV5BZTI4ZGMxN2UtODlkYS00MTBjLWE1YzctYzc3NDViMGI0ZmJmXkEyXkFqcGc@._V1_.jpg"
+          alt="frieren beyond journeys end art">
+        <figcaption>Frieren is one of my favorite animes because it's different and interesting. The fact that the
+          names of a lot of characters and places are German is a plus.</figcaption>
+      </figure>
 
-    <figure>
-      <img height="250" width="170"
-        src="https://m.media-amazon.com/images/M/MV5BZTI4ZGMxN2UtODlkYS00MTBjLWE1YzctYzc3NDViMGI0ZmJmXkEyXkFqcGc@._V1_.jpg"
-        alt="frieren beyond journeys end art">
-      <figcaption>Frieren is one of my favorite animes because it's different and interesting. The fact that the
-        names of a lot of characters and places are German is a plus.</figcaption>
-    </figure>
+      <figure>
+        <img height="230" width="150"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlX0XzMgaLleJG-WgAUDUhTrLav5Mcr9BaSZSvE0DfbAPXEsr5wESN_lnk0o4SF_Tj_kZJ"
+          alt="hollow knight art">
+        <figcaption>Hollow knight is usually very fun and can get difficult at times. Nightmare King Grimm was one
+          of my favorite bosses as he was very challening whilst still remaining fun.</figcaption>
+      </figure>
 
-    <figure>
-      <img height="250" width="200"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlX0XzMgaLleJG-WgAUDUhTrLav5Mcr9BaSZSvE0DfbAPXEsr5wESN_lnk0o4SF_Tj_kZJ"
-        alt="hollow knight art">
-      <figcaption>Hollow knight is usually very fun and can get difficult at times. Nightmare King Grimm was one
-        of my favorite bosses as he was very challening whilst still remaining fun.</figcaption>
-    </figure>
+      <figure>
+        <img height="230" width="150"
+          src="https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Blue_Lock_season_2_%28BD_1%29.jpg/250px-Blue_Lock_season_2_%28BD_1%29.jpg"
+          alt="Picture of the bluelock season 2 blu-ray cover">
+        <figcaption>Bluelock can be kinda over the top at times but is entertaining and genuinely makes me want to
+          play soccer.</figcaption>
+      </figure>
 
-    <figure>
-      <img height="250" width="200"
-        src="https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Blue_Lock_season_2_%28BD_1%29.jpg/250px-Blue_Lock_season_2_%28BD_1%29.jpg"
-        alt="Picture of the bluelock season 2 blu-ray cover">
-      <figcaption>Bluelock can be kinda over the top at times but is entertaining and genuinely makes me want to
-        play soccer.</figcaption>
-    </figure>
-
-    <figure>
-      <img height="250" width="180" src="https://upload.wikimedia.org/wikipedia/en/c/cd/Omori_cover.jpg"
-        alt="Omori box art">
-      <figcaption>Omori has a very captvating story with great characters. The gameplay is decent, but the story
-        is the best part as it is completely amazing.</figcaption>
-  </section>
+      <figure>
+        <img height="230" width="150" src="https://upload.wikimedia.org/wikipedia/en/c/cd/Omori_cover.jpg"
+          alt="Omori box art">
+        <figcaption>Omori has a very captvating story with great characters. The gameplay is decent, but the story
+          is the best part as it is completely amazing.</figcaption>
+          </figure>
+        <figure>
+          <img height="230" width="150" src="img/bocchirere.png" alt="Bocchi the Rock recap movie art">
+          <figcaption>I really liked watching bocchi the rock as the comedy is expertly crafted and the music is peak.
+            It got me back into playing Bass and makes me want to join a band.</figcaption>
+        </figure>
+        <figure>
+          <img height="230" width="150"
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Hearts_of_Iron_IV_packshot.jpg/250px-Hearts_of_Iron_IV_packshot.jpg"
+            alt="Hoi4 cover art">
+          <figcaption>Hearts of Iron IV is a ww2 grand strategy game. It is very complex and I have 600 hours on it and
+            still don't really get how to play well. But it's very fun most of the time.</figcaption>
+        </figure>
+    </section>
   </main>
 </body>
 
