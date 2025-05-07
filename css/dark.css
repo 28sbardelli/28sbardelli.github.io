@@ -3,12 +3,19 @@
   src: url(./font/comicsansms.ttf);
 }
 
+
+
+header a {
+  text-decoration: none;
+}
+
 h1 {
   color: palevioletred;
   font-size: 100px;
 }
 
-h2, h3{
+h2,
+h3 {
   color: #fff;
 }
 
@@ -32,7 +39,7 @@ nav {
   text-decoration: none;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   color: #fff;
 }
@@ -46,7 +53,8 @@ nav a{
   border-radius: 10px;
   text-decoration: none;
 }
-#db{
+
+#db {
   display: none;
 }
 
@@ -86,12 +94,10 @@ main {
 }
 
 .textpage {
-  background: rgba(92, 120, 145, 1);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 110%;
 }
+
+
 
 body,
 html {
@@ -99,7 +105,7 @@ html {
   margin: 0;
 }
 
-.multi{
+.multi {
   flex: 1 1 auto;
   justify-content: space-around;
   display: flex;
@@ -107,11 +113,62 @@ html {
 }
 
 
-.media {
-  flex: 1 1 auto;
-  display: flex;
-  text-align: center;
-  align-content: center;
-  font-size: 95%;
-  margin: 2% 5%;
+
+
+@media only screen and (min-width:601px){
+  #aback{
+    background: rgba(92, 120, 145, 1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180%;
+  }
+  .media {
+    flex: 1 1 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 95%;
+    margin: 2% 5%;
+  }
+  .media figure{
+    margin: 0 3%;
+  }
+}
+@media only screen and (max-width:600px) {
+  #aback{
+    background: rgba(92, 120, 145, 1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 00%;
+  }
+  .navs {
+    margin-bottom: 0;
+    height: 5%;
+    width: 7%;
+  }
+
+  header a nav {
+    font-size: 75%;
+  }
+
+  header {
+    justify-content: space-between;
+  }
+
+main{
+  height: 40%;
+  width: auto;
+}
+
+.media{
+  width: auto;
+  flex-direction: column;
+}
+
+#aback{
+height: 3000px;
+}
+
 }
