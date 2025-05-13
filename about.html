@@ -10,7 +10,9 @@
   <script src="js/js.js"></script>
 </head>
 
+<!--Having the function in the onload allows the page to keep style after reloading or changing pages-->
 <body class="textpage" onload="changestyle()">
+  <!--The navbar buttons are here, along with the button to change style. You can notice that the style button is actually two buttons.-->
   <header>
     <a href="/game/index.html">
       <nav>Get To School 6</nav>
@@ -33,7 +35,7 @@
       </svg></a>
   </header>
 
-
+<!--Flexbox to let the text be side by side. Used to be bigger but this looked nicer.-->
   <main>
     <section class="title">
       <h1>Alles über mich</h1>
@@ -58,6 +60,7 @@
 
     <br>
     <h1>Things I like</h1>
+    <!--fig and figcaption were used to keep them together. I forgot to close one of the figure one time and it gave me a headache trying to figure out what was wrong.-->
     <section class="media">
       <figure>
         <img height="230" width="180" src="/img/blackflag.jpg" alt="assassin's creed black flag box art">

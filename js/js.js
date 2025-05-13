@@ -1,3 +1,4 @@
+    //Reads the cookie and changes the style accordingly
     function changestyle() {
       let x = document.cookie;
       console.log(x);
