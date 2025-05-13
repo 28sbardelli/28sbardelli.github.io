@@ -93,13 +93,7 @@ main {
   height: 100%;
 }
 
-.textpage {
-  background: rgba(92, 120, 145, 1);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 110%;
-}
+
 
 
 
@@ -140,6 +134,14 @@ html {
   .media figure {
     margin: 0 3%;
   }
+
+  .textpage {
+    background: rgba(92, 120, 145, 1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+  }
 }
 
 @media only screen and (max-width:600px) {
@@ -161,5 +163,13 @@ html {
 
     height: 40%;
     width: auto;
+  }
+
+  .textpage {
+    background: rgba(92, 120, 145, 1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110%;
   }
 }

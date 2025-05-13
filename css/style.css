@@ -6,7 +6,7 @@
 
 
 
-header a{
+header a {
   text-decoration: none;
 }
 
@@ -15,7 +15,7 @@ h1 {
   font-size: 100px;
 }
 
-figcaption{
+figcaption {
   margin: 0 5% 0 0;
 }
 
@@ -38,7 +38,7 @@ nav {
   text-decoration: none;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   color: #000;
 }
@@ -52,7 +52,8 @@ nav a{
   border-radius: 10px;
   text-decoration: none;
 }
-#lb{
+
+#lb {
   display: none;
 }
 
@@ -91,13 +92,7 @@ main {
   height: 100%;
 }
 
-.textpage {
-  background: rgba(148, 187, 233, 1);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 110%;
-}
+
 
 body,
 html {
@@ -105,7 +100,7 @@ html {
   margin: 0;
 }
 
-.multi{
+.multi {
   flex: 1 1 auto;
   justify-content: space-around;
   display: flex;
@@ -113,14 +108,8 @@ html {
 }
 
 
-@media only screen and (min-width:601px){
-  #aback{
-    background: rgba(148, 187, 233, 1);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 180%;
-  }
+@media only screen and (min-width:601px) {
+
   .media {
     flex: 1 1 auto;
     display: flex;
@@ -129,10 +118,20 @@ html {
     font-size: 95%;
     margin: 2% 5%;
   }
-  .media figure{
+
+  .media figure {
     margin: 0 3%;
   }
+
+  .textpage {
+    background: rgba(148, 187, 233, 1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+  }
 }
+
 @media only screen and (max-width:600px) {
   .navs {
     margin-bottom: 0;
@@ -148,10 +147,18 @@ html {
     justify-content: space-between;
   }
 
-main{
-  
-  height: 40%;
-  width: auto;
-}
+  main {
+
+    height: 40%;
+    width: auto;
+  }
+
+  .textpage {
+    background: rgba(148, 187, 233, 1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110%;
+  }
 
 }
